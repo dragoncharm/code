@@ -1,4 +1,4 @@
-
+# Purpose: Solve the N-Queens problem using backtracking
 def solve_n_queens(n):
     def is_valid(board, row, col):
         for i in range(row):
@@ -24,3 +24,4 @@ def solve_n_queens(n):
 
 n = 4
 print(solve_n_queens(n))
+print(len(solve_n_queens(n)))
